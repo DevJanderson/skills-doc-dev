@@ -1,4 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// next.config.mjs
+import nextra from "nextra";
 
-export default nextConfig;
+const withNextra = nextra({
+  theme: "nextra-theme-docs",
+  themeConfig: "./theme.config.mjs",
+});
+
+export default withNextra({
+  // Qualquer outra configuração adicional do Next.js
+  reactStrictMode: true,
+});
