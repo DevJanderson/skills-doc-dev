@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function Linktree() {
   // change the variable here
@@ -21,7 +20,7 @@ export default function Linktree() {
   ];
 
   return (
-    <div className="w-full h-screen bg-gray-200 flex justify-center items-center">
+    <div className="w-full h-screen bg-gray-200 rounded-md mt-2 flex justify-center items-center">
       <div className="max-w-2xl mx-auto flex flex-col gap-5">
         <div className="h-48 w-48 mx-auto">
           <div className="aspect-w-1 aspect-h-1">
@@ -33,10 +32,10 @@ export default function Linktree() {
             />
           </div>
         </div>
-        <div className="text-center p-3 text-black">
-          <h1 className="text-4xl font-bold">Chen Sokheng</h1>
-          <p className="text-lg mt-3">
-            Lorem Ipsum has been the industry's since the 500s.
+        <div className="text-center p-3 text-black max-w-[380px] mx-auto ">
+          <h1 className="text-4xl font-bold">Janderson Lira</h1>
+          <p className="text-sm text-gray-600 mt-3">
+          Sou um desenvolvedor fullstack, adoro aprender coisas novas e construir
           </p>
         </div>
         <div className="flex flex-col gap-10">
