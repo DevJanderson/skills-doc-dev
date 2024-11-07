@@ -2,7 +2,7 @@
 export default {
   logo: <span>Dev Janderson</span>,
   project: {
-    link: 'https://github.com/shuding/nextra'
+    link: 'https://github.com/DevJanderson'
   },
 
   footer: {

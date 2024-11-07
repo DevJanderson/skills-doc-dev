@@ -3,20 +3,11 @@ export default function Linktree() {
   // change the variable here
   const links = [
     {
-      color: "bg-red-300",
-      text: "Buy me coffee ☕️",
-      link: "https://github.com",
+      color: "bg-slate-800",
+      text: "GitHub  ☕️",
+      link: "https://github.com/DevJanderson",
     },
-    {
-      color: "bg-sky-300",
-      text: "Join My Newslatter 🗞",
-      link: "https://github.com",
-    },
-    {
-      color: "bg-pink-400",
-      text: "Learn Code 💻",
-      link: "https://github.com",
-    },
+    
   ];
 
   return (
@@ -43,7 +34,7 @@ export default function Linktree() {
             return (
               <a href={link} key={index} target="_blank">
                 <div
-                  className={`w-80 sm:w-96 mx-auto ${color} text-center text-xl font-bold py-3 border-2 border-black shadow-custom hover:shadow-none transition-all hover:translate-x-1 hover:translate-y-1`}
+                  className={`w-80 sm:w-96 mx-auto ${color} text-center text-xl font-bold py-3 border-2 border-black shadow-custom hover:shadow-none transition-all hover:translate-x-1 hover:translate-y-1 rounded-md`}
                 >
                   {text}
                 </div>
