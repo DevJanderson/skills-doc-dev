@@ -6,7 +6,7 @@ export default function Linktree() {
       color: "bg-slate-800",
       text: "GitHub  ☕️",
       link: "https://github.com/DevJanderson",
-    },
+    }
     
   ];
 

@@ -9,4 +9,5 @@ const withNextra = nextra({
 export default withNextra({
   // Qualquer outra configuração adicional do Next.js
   reactStrictMode: true,
+  // basePath: '/docs',
 });
