@@ -33,13 +33,16 @@ export default function Linktree() {
               </p>
             </div>
           </Link>
+          <Link href="/docs" target="_blank">
+            <div className="bg-[#171F26] border-2 border-[#14A1F0] flex flex-col   rounded-2xl gap-1 py-4 px-6 mt-8">
+              <h1 className="text-2xl font-bold text-white">Dev skills documentação</h1>
+              <p className="text-gray-500">
+                Meu aprendizado em desenvolvimento.
+              </p>
+            </div>
+          </Link>
         </div>
-        <p className="text-gray-300 mt-8">
-          Sou engenheiro de software e atualmente trabalho como desenvolvedor
-          freelance full-stack iOS e Android. Além disso, crio conteúdo de
-          treinamento sobre programação de redes. Aqui você encontra todos os
-          meus links de interesse. Bem-vindo!ikjdfksdf
-        </p>
+        
       </div>
     </div>
   );

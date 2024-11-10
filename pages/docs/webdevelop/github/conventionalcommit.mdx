@@ -1,0 +1,35 @@
+# Estrutura Básica do Commit
+## A estrutura básica de um Conventional Commit é:
+```shell
+<tipo>(<escopo opcional>): <descrição curta>
+```
+* `<tipo>:` Define o propósito do commit (obrigatório).
+* `<escopo>:` Especifica a área do projeto afetada (opcional).
+* `<descrição>:` Descreve a mudança de forma breve e direta (obrigatório).
+
+Exemplo:
+```shell
+feat(auth): add login functionality
+```
+
+## Principais Tipos de Commit
+* `feat`: Adiciona uma nova funcionalidade ao código.\
+    Exemplo: `feat(api): add endpoint for user registration`
+<br/>
+* `fix:` Corrige um erro.\
+    Exemplo: `fix(ui): correct button alignment on mobile`
+<br/>
+* `docs:` Modifica ou cria documentação.\
+    Exemplo: `docs(readme): update installation instructions`
+<br/>
+* `style:` Alterações de formatação que não afetam a lógica do código (espaços, vírgulas, etc.).\
+    Exemplo: `style(header): reformat code for readability`
+<br/>
+* `refactor:` Refatorações de código que não corrigem erros nem adicionam funcionalidades.\
+    Exemplo: `refactor(auth): simplify login function`
+<br/>
+* `test:` Adiciona ou modifica testes.\
+    Exemplo: `test(user): add tests for user profile component`
+<br/>
+* `chore:` Atualizações diversas no código que não afetam a aplicação ou testes (ex.: atualizações de dependências).\
+    Exemplo: `chore(deps): update dependency eslint to v7.11.0`
