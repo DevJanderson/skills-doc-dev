@@ -1,4 +1,3 @@
-
 export default function Linktree() {
   // change the variable here
   const links = [
@@ -6,12 +5,11 @@ export default function Linktree() {
       color: "bg-slate-800",
       text: "GitHub  ☕️",
       link: "https://github.com/DevJanderson",
-    }
-    
+    },
   ];
 
   return (
-    <div className="w-full h-screen bg-gray-200 rounded-md mt-2 flex justify-center items-center">
+    <div className="w-full h-screen bg-gray-200 flex justify-center items-center">
       <div className="max-w-2xl mx-auto flex flex-col gap-5">
         <div className="h-48 w-48 mx-auto">
           <div className="aspect-w-1 aspect-h-1">
@@ -19,14 +17,14 @@ export default function Linktree() {
               src="https://github.com/DevJanderson.png"
               alt="Janderson github"
               className=" rounded-full object-cover object-center"
-             
             />
           </div>
         </div>
         <div className="text-center p-3 text-black max-w-[380px] mx-auto ">
           <h1 className="text-4xl font-bold">Janderson Lira</h1>
           <p className="text-sm text-gray-600 mt-3">
-          Sou um desenvolvedor fullstack, adoro aprender coisas novas e construir
+            Sou um desenvolvedor fullstack, adoro aprender coisas novas e
+            construir
           </p>
         </div>
         <div className="flex flex-col gap-10">

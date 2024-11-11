@@ -18,3 +18,49 @@ email = 'joao@email.com';
 console.log(email)
 ```
 Observe que não é necessário declarar novamente a variável email, apenas atribuir um novo valor
+
+## Case-sensitive
+Quando uma linguagem de programação é case-sensitive, significa que ela diferencia letras maiúsculas e minúsculas.\
+Por exemplo: "Rodrigo" é diferente de "rodrigo".
+
+#### Declarar variável e atribuir valor:
+```javascript
+// Exemplo de case-sensitive
+var product = 'Teclado mecânico'; // variável com 'p' minúsculo
+var Product = 'Mouse gamer';      // variável com 'P' maiúsculo
+console.log(product);             // imprime 'Teclado mecânico'
+console.log(Product);             // imprime 'Mouse gamer'
+```
+
+## Declaração com let
+O `let` é a forma mais moderna de declarar variáveis em JavaScript, introduzida no ES6 (ECMAScript 2015). Diferente do `var`, o `let` tem escopo de bloco e não permite redeclaração da mesma variável no mesmo escopo.
+
+#### Exemplo básico:
+```javascript
+//Declarando uma variável let sem valor
+// Isso daria erro porque:
+// A variável 'user' está sendo declarada duas vezes no mesmo escopo
+let user;
+console.log("Rodrigo");
+// Forma correta seria:
+let user = "algum valor";
+```
+```javascript
+// Declaração de variável let com valor
+let email = "email@email.com";
+console.log(email);
+// trocando o valor da variável
+email = "novo-email@email.com";
+console.log(email);
+```
+
+# Constantes
+As constantes criam uma variável cujo valor é fixo (não pode ser alterado).
+#### Exemplo básico:
+```javascript
+// Declarando uma constante com valor
+const number = 42
+console.log(number);
+number = 43; // Isso daria erro porque:
+console.log(number);
+```
